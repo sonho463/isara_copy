@@ -613,11 +613,92 @@ the merit
   color: #333333;
 }
 
-/* 
+/* ----------------------
+member
+---------------------- */
+.member {
+  background-image: url(img/teacherbg.jpg);
+  background-size: cover;
+  height: 1400px;
+  padding: 60px;
+  color: white;
+  text-align: center;
+}
+
+.member__beginning {
+  margin-bottom: 100px;
+}
+
+.member__title {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.member__lead {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.member__intro-wrapper {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.member__intro {
+  width: 380px;
+  height: 400px;
+  margin: 100px 30px;
+  padding: 10px 50px;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.member__img-circle {
+  border-radius: 50%;
+  position: absolute;
+  top: -170px;
+  left: 100px;
+}
+
+.member__card-wrapper {
+  padding-top: 40px;
+  font-weight: 300;
+}
+
+.member__job {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+
+}
+
+.member__name {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.member__sentence {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+/*--------------- 
 
 よくある質問
 
-*/
+-----------------*/
 .faq {
   margin-bottom: 50px;
 }
