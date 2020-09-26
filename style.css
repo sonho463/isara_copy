@@ -229,7 +229,7 @@ main h2 {
   }
 
 
-.question {
+.be-engineer {
   margin-top : 2em;
   color: #333333;
   background-image: url(img/introbottom.jpg);
@@ -613,6 +613,87 @@ the merit
   color: #333333;
 }
 
+/* 
+
+よくある質問
+
+*/
+.faq {
+  margin-bottom: 50px;
+}
+
+.container h1 {
+  margin: 50px;
+}
+
+.acd-check{
+  display: none;
+}
+.acd-label{
+  background: #fff;
+  color: #333;
+  border: solid 1px rgb(180, 176, 176);
+  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-bottom: 1px;
+  padding: 25px;
+  margin: 5px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  letter-spacing: 0.1em;
+}
+
+.acd-label:after{
+  /* background: #00479d; */
+  box-sizing: border-box;
+  content: '\f107';
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  height: 52px;
+  padding: 15px 20px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: gray;
+  font-size: 26px;
+}
+
+.acd-label i {
+color: #256EA9;
+}
+
+.acd-label:hover {
+text-decoration: underline;
+}
+
+
+
+.acd-content{
+  height: 0;
+  /* opacity: 0; */
+  padding: 0 20px;
+  transition: .5s;
+  visibility: hidden;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color:#333;
+  letter-spacing: 0.1em;
+}
+.acd-check:checked + .acd-label + .acd-content{
+  height: auto;
+  /* opacity: 1; */
+  padding: 20px;
+  visibility: visible;
+}
+
+.acd-check:checked + .acd-label:after{
+  content: '\f106';
+}
+
 
 /* ----------
 
@@ -643,4 +724,6 @@ footer {
 .footer-share_wrapper li {
   margin-right: 5px;
 }
+
+
 
