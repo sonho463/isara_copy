@@ -817,7 +817,76 @@ possible?
 /* -----------------
 contents
 ----------------- */
+.contents {
+  background-image: url(img/classbg.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+}
 
+.contents__title-wrapper {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.contents__title {
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.contents__lead {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contents__table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contents__table {
+  background-color: white;
+  border-collapse: separate;
+  overflow: hidden;
+  margin: 20px;
+  width: 375px;
+  border: 2px solid #256EA9;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contents__table th {
+  background-color: #256EA9;
+  color: white;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.contents__table td {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  padding: 10px 0px;
+  border: 1px solid #999999;
+}
+
+.risk0 {
+  background-color: #256EA9;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+}
+
+.risk0__caution {
+  font-size: 20px;
+  line-height: 32px;
+}
 
 
 
