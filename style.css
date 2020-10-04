@@ -964,6 +964,52 @@ flow
 }
 
 
+/*--------------- 
+
+なぜバンコクなのか
+
+-----------------*/
+
+.bangkok {
+  background-image: url(img/bangkokbg.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+  height: 500px;
+  margin-top: 50px;
+  color: white;
+}
+
+.bangkok__message-wrapper {
+  margin: 100px 125px;
+  }
+
+.bangkok__title {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.bangkok__title2 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.bangkok__sentence {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.bangkok__sub-title {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
 
 
