@@ -1012,6 +1012,42 @@ flow
 }
 
 
+/*--------------- 
+
+参加者への特典　Benefits
+
+-----------------*/
+.benefits {
+  background-color: #F7C23C;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #333333;
+}
+
+.benefits__title {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.benefits__sentence {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.benefits__sentence_white {
+  color: white;
+}
+
+.example__enclosure {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
 
 
