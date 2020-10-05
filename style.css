@@ -1086,7 +1086,65 @@ flow
   font-weight: 600;
 }
 
+/*--------------- 
 
+最大の価値　value
+
+-----------------*/
+
+.value {
+  text-align: center;
+  background-image: url(img/specialdetail.jpg);
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  letter-spacing: 0.1em;
+}
+
+.value__title {
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.value__sentence {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.value__title2 {
+  position: relative;
+  padding: 40px 80px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.value__title2:before, .value__title2:after {
+  content:'';
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  display: inline-block;
+}
+
+.value__title2:before{
+  border-left: solid 3px white;
+  border-top: solid 3px white;
+  top: 10px;
+  left: 300px;
+}
+
+.value__title2:after{
+  border-right: solid 3px white;
+  border-bottom: solid 3px white;
+  bottom:10px;
+  right: 300px;
+}
 
 /*--------------- 
 
