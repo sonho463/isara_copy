@@ -1146,6 +1146,56 @@ flow
   right: 300px;
 }
 
+
+/*--------------- 
+
+創業者からのメッセージ founder
+
+-----------------*/
+.founder {
+  /* margin-top: 50px; */
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px;
+  color: #333333;
+}
+
+.founder__title {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.founder__sub-title {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.founder__sentence-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.founder__image {
+  width: 195px;
+  
+}
+
+
+.sentence {
+  /* float: right; */
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 30px;
+}
+
+
 /*--------------- 
 
 よくある質問
